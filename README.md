@@ -10,8 +10,8 @@
 
 We can see it's the base level performance. Even with the class weights added, the score for 
 
-|precision	|recall		|f1-score	|support|
-|----------|-----------|-----------|--------------------|
+|label|precision	|recall		|f1-score	|support|
+|----------|-----------|-----------|--------------------|---|
 |0	       | 0.947531	|0.835920	|0.888233	|294089
 |1	        |0.106771	|0.297611	|0.157160	|19381
 |accuracy	|0.802638	|0.802638	|0.802638	|0
@@ -39,8 +39,8 @@ We can see it's the base level performance. Even with the class weights added, t
 5. using, CNV + LSTM  + Dense, the performance, came up to 78. 
     1. used threshold probability, as 0.9.
   
-| precision	|recall	|f1-score	|support
-|------------------|-----------|---------------|----------|
+|label| precision	|recall	|f1-score	|support
+|------------------|-----------|---------------|----------|---|
 |0	        |0.973275	|0.974089	|0.973682	|196059
 |1	        |0.601787	|0.594149	|0.597944	|12921
 |accuracy	|0.950598	|0.950598	|0.950598	|0
@@ -53,8 +53,8 @@ How drop out affects performance.
 How the padding should be chosen  ? Whether, the pre padding or post padding affects the type of model, eg. bidirectional GRU vs, LSTM ( in single direction)  How long to train, how many epochs. probability is > 0.8
 
     
- |precision	|recall		|f1-score	|support
- |---------------|-------------|----------------|----------|
+ |lael|precision	|recall		|f1-score	|support
+ |---------------|-------------|----------------|----------|---|
  |0	    	|0.981546	|0.952524	|0.966818	|196059
  |1	    	|.502725	|0.728272	|0.594835	|12921
 |accuracy	|0.938659	|0.938659	|0.938659	|0
