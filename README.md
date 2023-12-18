@@ -46,9 +46,9 @@ observations:  the cnn + lstm increases the precision.
 How drop out affects performance. 
 How the padding should be chosen  ? Whether, the pre padding or post padding affects the type of model, eg. bidirectional GRU vs, LSTM ( in single direction)  How long to train, how many epochs. probability is > 0.8
 				
- 	        precision	recall	f1-score	support
-    0	    0.981546	0.952524	0.966818	196059
-    1	    0.502725	0.728272	0.594835	12921
+ 		precision	recall		f1-score	support
+    0	    	0.981546	0.952524	0.966818	196059
+    1	    	0.502725	0.728272	0.594835	12921
 accuracy	0.938659	0.938659	0.938659	0
 macro avg	0.742136	0.840398	0.780827	208980
 weighted avg	0.951941	0.938659	0.943819	208980
